@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "ai-portfolio/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "ai-portfolio/dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "ai-portfolio/dist/$1"
+    }
+  ]
+} 
