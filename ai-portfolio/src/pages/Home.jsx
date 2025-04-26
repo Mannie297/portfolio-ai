@@ -1,39 +1,44 @@
 import { Link } from 'react-router-dom';
+import aiImageGen from '../assets/images/ai-image-gen.jpg';
+import nlpImage from '../assets/images/nlp.jpg';
+import mlDashboard from '../assets/images/ml-dashboard.jpg';
+import chatbot from '../assets/images/chatbot.jpg';
+import cvSystem from '../assets/images/cv-system.jpg';
 
 const projects = [
   {
     id: 1,
     title: "AI Image Generation",
     description: "A web application that generates images using AI models",
-    image: "/src/assets/images/ai-image-gen.jpg",
+    image: aiImageGen,
     technologies: ["Streamlit", "Python", "Stable Diffusion model","PyTorch", "Transformers"]
   },
   {
     id: 2,
     title: "Natural Language Processing",
     description: "Text analysis and sentiment detection using NLP",
-    image: "/src/assets/images/nlp.jpg",
+    image: nlpImage,
     technologies: ["Streamlit", "Python", "BERT", "NER"]
   },
   {
     id: 3,
     title: "Machine Learning Dashboard",
     description: "Interactive dashboard for ML model visualization",
-    image: "/src/assets/images/ml-dashboard.jpg",
+    image: mlDashboard,
     technologies: ["Streamlit", "Python", "Plotly", "Pandas"]
   },
   {
     id: 4,
     title: "AI Chatbot",
     description: "Conversational AI assistant with natural language understanding",
-    image: "/src/assets/images/chatbot.jpg",
+    image: chatbot,
     technologies: ["Python", "TensorFlow", "WebSocket"]
   },
   {
     id: 5,
     title: "Computer Vision System",
     description: "Real-time object detection and recognition",
-    image: "/src/assets/images/cv-system.jpg",
+    image: cvSystem,
     technologies: ["OpenCV", "PyTorch", "React"]
   }
 ];
