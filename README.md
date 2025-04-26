@@ -73,4 +73,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For any questions or suggestions, please open an issue or contact the repository owner. 
+For any questions or suggestions, please contact the repository owner. 
