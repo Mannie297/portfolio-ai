@@ -1,4 +1,9 @@
 import { useParams, Link } from 'react-router-dom';
+import demoImage from '../assets/images/demo.png';
+import streamlitApp from '../assets/images/streamlit_app.png';
+import dashboard from '../assets/images/dashboard.png';
+import chatbot from '../assets/images/chatbot.jpg';
+import cvSystem from '../assets/images/cv-system.jpg';
 
 const projects = [
   {
@@ -6,7 +11,7 @@ const projects = [
     title: "AI Image Generation",
     description: "A web application that generates images using AI models",
     longDescription: "This project implements state-of-the-art image generation using GANs and diffusion models. Users can input text prompts and receive high-quality generated images. The system includes features like style transfer and image-to-image translation.",
-    image: "/src/assets/images/demo.png",
+    image: demoImage,
     technologies: ["Streamlit", "Python", "Stable Diffusion model","PyTorch", "Transformers"],
     githubLink: "https://github.com/Mannie297/ai-image-generator",
     demoLink: "https://github.com/Mannie297/ai-image-generator"
@@ -16,7 +21,7 @@ const projects = [
     title: "Natural Language Processing",
     description: "Text analysis and sentiment detection using NLP",
     longDescription: "An advanced NLP system that performs sentiment analysis, named entity recognition, key phrase extraction and dependency parsing. The system uses transformer-based models for accurate text understanding and processing. The results are presented through a user-friendly Streamlit web interface.",
-    image: "/src/assets/images/streamlit_app.png",
+    image: streamlitApp,
     technologies: ["Streamlit", "Python", "BERT", "NER"],
     githubLink: "https://github.com/Mannie297/advanced-nlp-system",
     demoLink: "https://github.com/Mannie297/advanced-nlp-system"
@@ -26,7 +31,7 @@ const projects = [
     title: "Machine Learning Dashboard",
     description: "Interactive dashboard for ML model visualization",
     longDescription: "A comprehensive dashboard that visualizes machine learning model performance, training metrics, and predictions. Includes interactive charts and real-time model monitoring capabilities.",
-    image: "/src/assets/images/dashboard.png",
+    image: dashboard,
     technologies: ["Streamlit", "Python", "Plotly", "Pandas"],
     githubLink: "https://github.com/Mannie297/machine_learning_dashboard",
     demoLink: "https://github.com/Mannie297/machine_learning_dashboard"
@@ -36,7 +41,7 @@ const projects = [
     title: "AI Chatbot",
     description: "Conversational AI assistant with natural language understanding",
     longDescription: "An intelligent chatbot that understands context and maintains natural conversations. Built with transformer models and integrated with various APIs for enhanced functionality.",
-    image: "/src/assets/images/chatbot.jpg",
+    image: chatbot,
     technologies: ["Python", "TensorFlow", "WebSocket"],
     githubLink: "https://github.com/yourusername/ai-chatbot",
     demoLink: "https://demo.ai-chatbot.com"
@@ -46,7 +51,7 @@ const projects = [
     title: "Computer Vision System",
     description: "Real-time object detection and recognition",
     longDescription: "A real-time computer vision system that performs object detection, face recognition, and scene understanding. Optimized for performance with hardware acceleration support.",
-    image: "/src/assets/images/cv-system.jpg",
+    image: cvSystem,
     technologies: ["OpenCV", "PyTorch", "React"],
     githubLink: "https://github.com/yourusername/cv-system",
     demoLink: "https://demo.cv-system.com"
