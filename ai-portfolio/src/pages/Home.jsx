@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import aiImageGen from '../assets/images/ai-image-gen.jpg';
 import nlpImage from '../assets/images/nlp.jpg';
 import mlDashboard from '../assets/images/ml-dashboard.jpg';
-import chatbot from '../assets/images/chatbot.jpg';
-import cvSystem from '../assets/images/cv-system.jpg';
+import chatbot from '../assets/images/chatinterface.png';
+import cvSystem from '../assets/images/cvsystem2.png';
 
 const projects = [
   {
@@ -32,14 +32,14 @@ const projects = [
     title: "AI Chatbot",
     description: "Conversational AI assistant with natural language understanding",
     image: chatbot,
-    technologies: ["React", "OpenAI API", "Tailwind CSS", "Axios"]
+    technologies: ["Python", "TensorFlow", "WebSocket"]
   },
   {
     id: 5,
     title: "Computer Vision System",
     description: "Real-time object detection and recognition",
     image: cvSystem,
-    technologies: ["OpenCV", "Ultralytics YOLO", "Streamlit"]
+    technologies: ["OpenCV", "PyTorch", "React"]
   }
 ];
 

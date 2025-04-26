@@ -5,8 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/',
+  assetsInclude: ['**/*.PNG', '**/*.png', '**/*.JPG', '**/*.jpg'],
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    assetsInlineLimit: 0
   },
 })
