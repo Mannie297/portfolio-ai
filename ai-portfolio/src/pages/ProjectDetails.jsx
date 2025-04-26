@@ -42,7 +42,7 @@ const projects = [
     description: "Conversational AI assistant with natural language understanding",
     longDescription: "An intelligent chatbot that understands context and maintains natural conversations. Built with transformer models and integrated with various APIs for enhanced functionality.",
     image: chatinterface,
-    technologies: ["Python", "TensorFlow", "WebSocket"],
+    technologies: ["React", "OpenAI API", "Tailwind CSS", "Axios"],
     githubLink: "https://github.com/Mannie297/ai-chatbot",
     demoLink: "https://github.com/Mannie297/ai-chatbot"
   },
@@ -52,7 +52,7 @@ const projects = [
     description: "Real-time object detection and recognition",
     longDescription: "A real-time computer vision system that performs object detection, face recognition, and scene understanding. Optimized for performance with hardware acceleration support.",
     image: cvsystem2,
-    technologies: ["OpenCV", "PyTorch", "React"],
+    technologies: ["OpenCV", "Ultralytics YOLO", "Streamlit"],
     githubLink: "https://github.com/Mannie297/computer-vision",
     demoLink: "https://github.com/Mannie297/computer-vision"
   }
