@@ -2,8 +2,8 @@ import { useParams, Link } from 'react-router-dom';
 import demoImage from '../assets/images/demo.png';
 import streamlitApp from '../assets/images/streamlit_app.png';
 import dashboard from '../assets/images/dashboard.png';
-import chatinterface from '../assets/images/chat_interface.png';
-import cv from '../assets/images/cv_system.png';
+import chatbot from '../assets/images/chatbot.jpg';
+import cv from '../assets/images/cv.png';
 
 const projects = [
   {
@@ -41,7 +41,7 @@ const projects = [
     title: "AI Chatbot",
     description: "Conversational AI assistant with natural language understanding",
     longDescription: "An intelligent chatbot that understands context and maintains natural conversations. Built with transformer models and integrated with various APIs for enhanced functionality.",
-    image: chatinterface,
+    image: chatbot,
     technologies: ["Python", "TensorFlow", "WebSocket"],
     githubLink: "https://github.com/Mannie297/ai-chatbot",
     demoLink: "https://github.com/Mannie297/ai-chatbot"
