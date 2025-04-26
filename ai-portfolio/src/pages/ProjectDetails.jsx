@@ -3,7 +3,7 @@ import demoImage from '../assets/images/demo.png';
 import streamlitApp from '../assets/images/streamlit_app.png';
 import dashboard from '../assets/images/dashboard.png';
 import chatbot from '../assets/images/chatinterface.png';
-import cvsystem from '../assets/images/cvsystem2.png';
+import cvsystem from '../assets/images/cvsystem2.PNG';
 
 const projects = [
   {
