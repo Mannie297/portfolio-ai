@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import aiImageGen from '../assets/images/ai-image-gen.jpg';
 import nlpImage from '../assets/images/nlp.jpg';
 import mlDashboard from '../assets/images/ml-dashboard.jpg';
-import chatbot from '../assets/images/chatinterface.png';
+import chatbot from '../assets/images/chatbot.jpg';
 import cvSystem from '../assets/images/cvsystem2.png';
 
 const projects = [
